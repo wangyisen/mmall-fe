@@ -2,7 +2,7 @@
 * @Author: wangyisen
 * @Date:   2017-07-20 23:45:39
 * @Last Modified by:   wangyisen
-* @Last Modified time: 2017-07-24 22:56:53
+* @Last Modified time: 2017-07-25 00:11:42
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -46,6 +46,14 @@ var config = {
             {test: /\.(gif|png|jpg|woff|svg|ttf)\??.*$/, loader: 'url-loader?limit=100&name=resource/[name].[ext]'}
 
         ]
+    },
+    resolve: {
+        alias: {
+            util: __dirname + '/src/util',
+            page: __dirname + '/src/page',
+            service: __dirname + '/src/service',
+            image: __dirname + '/src/image',
+        }
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
