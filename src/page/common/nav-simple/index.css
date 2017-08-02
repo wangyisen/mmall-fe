@@ -1,0 +1,17 @@
+/*
+* @Author: wangyisen
+* @Date:   2017-07-31 22:19:33
+* @Last Modified by:   wangyisen
+* @Last Modified time: 2017-08-01 12:22:06
+*/
+.nav-simple{
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid #ddd;
+        background:  #fff;
+}
+.nav-simple .logo{
+    font-size:  26px;
+    font-weight: bold;
+    color: #c60023;
+}

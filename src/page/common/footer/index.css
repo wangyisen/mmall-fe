@@ -1,0 +1,22 @@
+/*
+* @Author: wangyisen
+* @Date:   2017-07-28 00:08:39
+* @Last Modified by:   wangyisen
+* @Last Modified time: 2017-08-01 12:11:42
+*/
+.footer{
+    padding-bottom: 10px;
+}
+.footer .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px; 
+}
+.footer .copyright{
+    text-align: center;  
+    color: #666;
+    line-height: 30px;  
+}
